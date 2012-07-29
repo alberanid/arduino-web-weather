@@ -24,7 +24,7 @@
  * is the return of the sensor reading (0 for success).
  *
  * TODO /ideas:
- * - add another sensors.
+ * - add other sensors.
  * - easier to customize CSV lines.
  * - serve a web page and display data on a paginated grid (using a
  *   javascript from another server).
