@@ -12,9 +12,9 @@ and humidity sensor, an Ethernet Shield and an RTC module.
 Oh, an Arduino UNO will help. :-P
 
 I've used:
-  https://www.sparkfun.com/products/10167 \\
-  https://www.sparkfun.com/products/99 \\
-  https://www.sparkfun.com/products/9026
+ - https://www.sparkfun.com/products/10167
+ - https://www.sparkfun.com/products/99
+ - https://www.sparkfun.com/products/9026
 
 The web-weather.fzz file contains the Fritzing circuit diagram (in the __media__ directory, a jpeg export of the diagram).
 
