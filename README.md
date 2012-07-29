@@ -12,8 +12,8 @@ and humidity sensor, an Ethernet Shield and an RTC module.
 Oh, an Arduino UNO will help. :-P
 
 I've used:
-  https://www.sparkfun.com/products/10167
-  https://www.sparkfun.com/products/99
+  https://www.sparkfun.com/products/10167 \\
+  https://www.sparkfun.com/products/99 \\
   https://www.sparkfun.com/products/9026
 
 The web-weather.fzz file contains the Fritzing circuit diagram (in the __media__ directory, a jpeg export of the diagram).
@@ -21,22 +21,21 @@ The web-weather.fzz file contains the Fritzing circuit diagram (in the __media__
 Software
 --------
 
-Just copy the web\_weather directory into your ~/sketchbook directory.
+Just copy the __web\_weather__ directory into your ~/sketchbook directory.
 Most of it is commented, if you can understand my English.
 
 Multimedia
 ----------
 
-In the media directory, you'll find some picture that may help
-you building the project.
+In the media directory there are some pictures that may help you build the project.
 
 How it works
 ============
 
  - copy the web\_weather directory into your ~/sketchbook directory
- - it needs these libraries: RTClib ( https://github.com/alberanid/RTClib ) and DHT22 ( https://github.com/alberanid/Arduino-DHT22 )
+ - it needs these libraries: *RTClib* ( https://github.com/alberanid/RTClib ) and *DHT22* ( https://github.com/alberanid/Arduino-DHT22 )
  - put a microSD card in the slot of the Ethernet Shield.
- - modify the web\_weather.ino file accordingly to your needs.
+ - modify the __web\_weather.ino__ file accordingly to your needs.
  - upload the program to your Arduino UNO board.
  - connect the ethernet cable to your router or switch.
  - fetch the data with something like: wget http://192.168.0.42/ -O humidity-temp.csv
