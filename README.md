@@ -1,7 +1,7 @@
 Arduino Web Weather
 ===================
 
-Arduino Web Weather collects data from a temperature and humidity sensor, them in a CSV file on an SD card and serve it over the web.
+Arduino Web Weather collects data from a temperature and humidity sensor, stores them in a CSV file on an SD card and serves this file over the web.
 
 
 Electronic
@@ -11,7 +11,12 @@ Minimum requirements are a DTH22 (or equivalent) temperature
 and humidity sensor, an Ethernet Shield and an RTC module.
 Oh, an Arduino UNO will help. :-P
 
-The web-weather.fzz file contains the Fritzing circuit diagram.
+I've used:
+  https://www.sparkfun.com/products/10167
+  https://www.sparkfun.com/products/99
+  https://www.sparkfun.com/products/9026
+
+The web-weather.fzz file contains the Fritzing circuit diagram (in the __media__ directory, a jpeg export of the diagram).
 
 Software
 --------
